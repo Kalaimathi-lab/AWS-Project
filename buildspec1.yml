@@ -22,7 +22,3 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Image pushed: $REPOSITORY_URI:$IMAGE_TAG
 
-artifacts:
-  files:
-    - '**/*'
-
